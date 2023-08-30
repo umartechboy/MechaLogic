@@ -1,7 +1,7 @@
 pitch = 12;
-[x1, y1, PCD1] = MakeGear1(28, 20, pitch, .1, 2, 2);
-[x2, y2, PCD2] = MakeGear1(22, 20, pitch, .1, 2, 2);
-[x3, y3, PCD3] = MakeGear1(16, 20, pitch, .1, 2, 2);
+[x1, y1, PCD1] = MakeGear1(36, 20, pitch, .1, 2, 2);
+[x2, y2, PCD2] = MakeGear1(28, 20, pitch, .1, 2, 2);
+[x3, y3, PCD3] = MakeGear1(20, 20, pitch, .1, 2, 2);
 figure; 
 hold on;
 %[x2, y2] = rotateZ(x2, y2, 0.13);
